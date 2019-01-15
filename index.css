@@ -1,0 +1,158 @@
+body
+{
+    background-color: #ecf0f1;
+    font-family: open_sanslight, impact, arial, "sans sherif";
+    font-size: 100%; 
+}
+
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('fonts/OpenSans-Light-webfont.eot');
+    src: url('fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Light-webfont.woff2') format('woff2'),
+         url('fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1
+{
+    color: black;
+    font-weight: bold;
+    font-size: 300%;
+    margin-left: 46%;
+}
+
+h2
+{
+	color: #46B6DB;
+    border: 4px black groove;
+    border-radius: 8px 8px;
+    box-shadow: 6px 6px 15px black;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+h3
+{
+    font-size: 130%;
+    margin-left: 40%;
+}
+
+.imageflottante
+{
+	float: left;
+    margin-left: 32%;
+    margin-top: 2%;
+    border: 4px black groove;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    align-items: flex-start;
+    
+}
+
+article
+{ 
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 5%;
+    top: 23%;
+    padding: 2%;
+}
+
+aside li{
+    list-style-type: none;
+    font-size: 130%;
+    margin-left: 10%;
+}
+
+#experiences
+{
+    width: 40%;
+    height: 30%;
+    padding: 2%;
+   
+}
+
+#parcours
+{
+    width: 40%;
+    height: 30%;
+    padding: 2%;
+   
+}
+
+#etudes
+{
+    width: 40%;
+    height: 30%;
+    padding: 2%;
+}
+
+#sites
+{
+    width: 40%;
+    height: 30%;
+    padding: 2%;
+}
+
+
+aside
+{ 
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    padding: 2%;
+}
+
+#passions
+{
+    width: 80%;
+    height: 30%;
+    padding: 2%;
+}
+
+.imageflottante1
+{
+    float: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.imageflottante2
+{
+    float: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+
+@media screen and (max-width: 680px){
+    body{
+        width: auto;
+    }
+    section {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 681px) and (max-width: 1279px){
+    body{
+        width: auto;
+    }
+    section {
+        flex-direction: column;
+    }
+}
+
+
